@@ -4,16 +4,15 @@ import {
   Container,
   Nav,
 } from 'react-bootstrap';
-import '../styles/Bottom.css'
+import '../styles/Footer.css'
 
 function Bottom() {
   return (
-    <div className="bottom">
-      <Navbar bg="dark" variant="dark">
+    <div className="footer">
+      <Navbar bg="dark" variant="dark" >
     <Container>
     <Nav className="mx-auto">
-      <h3>©Copyright | Luan da Silva Ramalho</h3>
-      <br />
+      <p>Created By Luan da Silva Ramalho | &#169; 2021</p>
     </Nav>
     </Container>
   </Navbar>
