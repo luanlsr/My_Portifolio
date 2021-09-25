@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/luanlogo.png';
+import logo from '../assets/images/luanlogo.png';
 import {
   Navbar,
   Container,
