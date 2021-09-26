@@ -1,20 +1,5 @@
 .aboutContainer {
-  background-color: #fff;
-  color: #111;
+  background-color: #00C2CB;
   height: 100vh;
-  padding-top: 150px;
-
+  padding-top: 200px;
 }
-
-.meeting {
-  color: #111;
-  font-size: 2.5em;
-  font-weight: 400;
-  left: 25%;
-  position: absolute;
-  top: 350px;
-}
-
-/* .meeting h1{
-  animation: opac infinite ease-in-out 1.5s;
-} */

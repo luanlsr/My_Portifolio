@@ -12,10 +12,11 @@ const NavBar = () => {
   return (
     <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#about"><img src={logo} alt="logo" width="180px"/></Navbar.Brand>
+    <Navbar.Brand href="#home"><img src={logo} alt="logo" width="180px"/></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mx-auto list">
+        <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#skills">Skills</Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>

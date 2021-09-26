@@ -1,5 +1,52 @@
 .contactContainer {
+  align-items: center;
   background-color: #00C2CB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 100vh;
   padding-top: 200px;
+}
+
+.social-networks {
+  display: flex;
+  font-size: 2.5em;
+}
+
+.github {
+  color: white;
+  margin: 0 16px;
+}
+
+
+.linkedin {
+  color: white;
+  margin: 0 16px;
+}
+
+.instagram {
+  color: white;
+  margin: 0 16px;
+}
+
+.github:hover {
+  color: #222;
+}
+
+.linkedin:hover {
+  color: #0A66C2;
+}
+
+.instagram:hover {
+  color: #E0487E;
+}
+
+.form {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+}
+
+.message {
+  height: 150px;
 }
